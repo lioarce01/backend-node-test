@@ -1,4 +1,3 @@
-// create-recipe.use-case.spec.ts
 import { InMemoryRecipeRepository } from '../../infrastructure/persistence/in-memory/recipe.repository';
 import { CreateRecipeDto } from '../../interface/controllers/dto/create-recipe.dto';
 import { CreateRecipeUseCase } from './create-recipe.use-case';
