@@ -46,6 +46,12 @@ class Recipe {
 pnpm run start:watch
 ```
 
+## Deployed API URL
+
+```bash
+https://backend-node-test-ai48.onrender.com/api/v1/recipes
+```
+
 ---
 
 ## API Endpoints
