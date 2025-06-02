@@ -43,7 +43,7 @@ class Recipe {
 ## How to run locally
 
 ```bash
-pnpm/npm run start:watch
+pnpm run start:watch
 ```
 
 ---
@@ -136,7 +136,7 @@ Base URL: `/api/v1`
 ## Running Tests
 
 ```bash
-npm run test:watch
+pnpm run test:watch
 ```
 
 ---
