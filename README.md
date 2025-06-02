@@ -1,4 +1,4 @@
-# 🍽️ Recipe API
+# Recipe API - Backend - Node - NestJ
 
 A simple REST API for managing recipes, built with **NestJS** following **Clean Architecture** and **Domain-Driven Design (DDD)** principles.
 
@@ -141,7 +141,7 @@ pnpm run test:watch
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [NestJS](https://nestjs.com/)
 - TypeScript
