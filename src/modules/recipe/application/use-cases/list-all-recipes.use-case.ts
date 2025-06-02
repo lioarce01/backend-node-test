@@ -3,12 +3,12 @@ import { RecipeRepository } from '../../domain/repositories/recipe.repository.in
 import { Recipe } from '../../domain/entities/recipe.entity';
 
 @Injectable()
-export class GetRecipeByIdUseCase {
+export class ListAllRecipesUseCase {
   constructor(
     @Inject('RecipeRepository') private readonly recipeRepo: RecipeRepository,
   ) {}
 
-  async execute(id: string): Promise<Recipe | null> {
-    return await this.recipeRepo.getById(id);
+  async execute(): Promise<Recipe[]> {
+    return await this.recipeRepo.listAll();
   }
 }

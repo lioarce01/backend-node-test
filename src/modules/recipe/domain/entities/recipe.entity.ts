@@ -5,7 +5,7 @@ export class Recipe {
     public readonly id: string,
     public title: string,
     public description: string,
-    public ingredientes: string[],
+    public ingredients: string[],
     public createdAt: Date,
     public updatedAt: Date,
   ) {}
